@@ -75,7 +75,7 @@ if(age>=18){
 
 console.log(` She have to wait another ${year} year.`);*/
 
-const markMass = 78 ;
+/*const markMass = 78 ;
 const markHeight = 1.69;
 const markBmi = markMass / (markHeight * markHeight);
 
@@ -113,3 +113,25 @@ if(SaidurWeight>SaifulWeight){
 }else{
     console.log(`Saiful's weight ${SaifulWeight} is greater than Saidur's weigh ${SaidurWeight}.`);
 }
+
+*/
+
+
+console.log('Hello, World! I am learning JavaScript.');
+console.log('I am '+ String(23 ) + ' years old');
+console.log(String(23)); //type Coercion
+
+console.log('23' , 23);
+console.log(Number('23')+ 23);
+
+console.log('23' - '10' - 4);
+
+console.log(Number('NBICT'));
+
+
+console.log(typeof(true));
+console.log(typeof(NaN));
+console.log('23' + '10' + 4);
+console.log('23' * '2');
+
+
