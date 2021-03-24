@@ -117,7 +117,7 @@ if(SaidurWeight>SaifulWeight){
 */
 
 
-console.log('Hello, World! I am learning JavaScript.');
+/*console.log('Hello, World! I am learning JavaScript.');
 console.log('I am '+ String(23 ) + ' years old');
 console.log(String(23)); //type Coercion
 
@@ -130,8 +130,37 @@ console.log(Number('NBICT'));
 
 
 console.log(typeof(true));
-console.log(typeof(NaN));
+console.log(typeof (NaN));
 console.log('23' + '10' + 4);
 console.log('23' * '2');
+console.log("Shakil");*/
 
+// console.log(Boolean(56));
+// let muName ;
+// console.log( muName);
+// console.log(Boolean( muName));
 
+// console.log(Boolean({}));
+// console.log(Boolean(''));
+
+// const money = 0;
+// if(money){
+//     console.log('Do not spend it all.');
+// }else{
+//     console.log('you should get a job.');
+// }
+
+// const age = 14;
+// if(age !== 18)console.log('you are not  adult enough');
+
+const password =Number(prompt('Enter password')) ;
+
+if(password === 123){
+    console.log('Wellcome! Sadhan Verma');
+}else if(password === 345){
+    console.log('Wellcome! Abdul motin');
+}else if(password === 678){
+    console.log('Wellcome! Md. Shafiul Alam');
+}else{
+    console.log('Worng password');
+}
