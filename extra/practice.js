@@ -152,7 +152,7 @@ console.log("Shakil");*/
 
 // const age = 14;
 // if(age !== 18)console.log('you are not  adult enough');
-
+/*
 const password =Number(prompt('Enter password')) ;
 
 if(password === 123){
@@ -163,4 +163,27 @@ if(password === 123){
     console.log('Wellcome! Md. Shafiul Alam');
 }else{
     console.log('Worng password');
+}
+*/
+
+let dolpinFirstScore = Number(prompt('Enter DolpinFirstScore'));
+let dolpinSecondScore = Number(prompt('Enter DolpinSecondScore'));
+let dolpinThirdScore = Number(prompt('Enter DolpinThirdScore'));
+
+let KualasFirstScore = Number(prompt('Enter Kualas FirstScore'));
+let KualasSecondScore = Number(prompt('Enter Kualas SecondScore'));
+let KualasThirdScore = Number(prompt('Enter Kualas ThirdScore'));
+
+let dolpinAverageScore = (dolpinFirstScore + dolpinSecondScore + dolpinThirdScore)/3;
+let KualasAverageScore = (KualasFirstScore + KualasSecondScore + KualasThirdScore)/3;
+
+console.log(` dolpin Average Score ${ dolpinAverageScore}`);
+console.log(` kualas Average Score ${ KualasAverageScore}`);
+
+if(dolpinAverageScore > KualasAverageScore){
+    console.log(`dolpin is the winer!.`);
+}else if(dolpinAverageScore < KualasAverageScore){
+    console.log(`kuala is the winer!.`);
+}else{
+    console.log(`Draw!.`);
 }
