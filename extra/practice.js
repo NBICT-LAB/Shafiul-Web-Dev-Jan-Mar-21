@@ -166,7 +166,7 @@ if(password === 123){
 }
 */
 
-let dolpinFirstScore = Number(prompt('Enter DolpinFirstScore'));
+/*let dolpinFirstScore = Number(prompt('Enter DolpinFirstScore'));
 let dolpinSecondScore = Number(prompt('Enter DolpinSecondScore'));
 let dolpinThirdScore = Number(prompt('Enter DolpinThirdScore'));
 
@@ -186,4 +186,24 @@ if(dolpinAverageScore > KualasAverageScore){
     console.log(`kuala is the winer!.`);
 }else{
     console.log(`Draw!.`);
+}
+
+*/
+const shafiulWeight = Number(prompt('Enter Shafiul weight:')) ;
+const shafiulHeight = Number(prompt('Enter Shafiul height:'));
+const shafiulBmi = shafiulWeight / (shafiulHeight* shafiulHeight);
+
+
+const naeemWeight = Number(prompt('Enter Naeem weight:')) ;
+const naeemHeight = Number(prompt('Enter Naeem height:'));
+const naeemBmi = naeemWeight / (naeemHeight* naeemHeight);
+
+console.log(shafiulBmi);
+console.log(naeemBmi);
+
+
+if(shafiulBmi > naeemBmi) {
+    console.log(`Shafiul's BMI is higher than Naeem's!`);
+}else{
+    console.log(`Naeem's BMI is higher than Shafiul's!`);
 }
