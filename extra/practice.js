@@ -166,44 +166,41 @@ if(password === 123){
 }
 */
 
-/*let dolpinFirstScore = Number(prompt('Enter DolpinFirstScore'));
-let dolpinSecondScore = Number(prompt('Enter DolpinSecondScore'));
-let dolpinThirdScore = Number(prompt('Enter DolpinThirdScore'));
 
-let KualasFirstScore = Number(prompt('Enter Kualas FirstScore'));
-let KualasSecondScore = Number(prompt('Enter Kualas SecondScore'));
-let KualasThirdScore = Number(prompt('Enter Kualas ThirdScore'));
+// const shafiulWeight = Number(prompt('Enter Shafiul weight:')) ;
+// const shafiulHeight = Number(prompt('Enter Shafiul height:'));
+// const shafiulBmi = shafiulWeight / (shafiulHeight* shafiulHeight);
 
-let dolpinAverageScore = (dolpinFirstScore + dolpinSecondScore + dolpinThirdScore)/3;
-let KualasAverageScore = (KualasFirstScore + KualasSecondScore + KualasThirdScore)/3;
 
-console.log(` dolpin Average Score ${ dolpinAverageScore}`);
-console.log(` kualas Average Score ${ KualasAverageScore}`);
+// const naeemWeight = Number(prompt('Enter Naeem weight:')) ;
+// const naeemHeight = Number(prompt('Enter Naeem height:'));
+// const naeemBmi = naeemWeight / (naeemHeight* naeemHeight);
 
-if(dolpinAverageScore > KualasAverageScore){
-    console.log(`dolpin is the winer!.`);
-}else if(dolpinAverageScore < KualasAverageScore){
-    console.log(`kuala is the winer!.`);
+// console.log(shafiulBmi);
+// console.log(naeemBmi);
+
+
+// if(shafiulBmi > naeemBmi) {
+//     console.log(`Shafiul's BMI is higher than Naeem's!`);
+// }else{
+//     console.log(`Naeem's BMI is higher than Shafiul's!`);
+// }
+
+let dolpinfirstScore = Number(prompt('Enter first  score of dolpin'));
+let dolpinSecondScore = Number(prompt('Enter Second score of dolpin'));
+let dolpinThirdScore = Number(prompt('Enter Third  score of dolpin'));
+
+
+let koalafirstScore = Number(prompt('Enter first  score of koala'));
+let koalaScoreScore = Number(prompt('Enter Second score of koala'));
+let koalaThirdScore = Number(prompt('Enter Third  score of koala'));
+
+let avarageSoreOfdolpin = (dolpinfirstScore + dolpinSecondScore + dolpinThirdScore)/3;
+let avarageSoreOfKoala = (koalafirstScore + koalaScoreScore + koalaThirdScore)/3;
+if(avarageSoreOfdolpin > avarageSoreOfKoala){
+    console.log('Dolpin is the winer');
+}else if(avarageSoreOfKoala > avarageSoreOfDolpin){
+    console.log('Koala is the winer');
 }else{
-    console.log(`Draw!.`);
-}
-
-*/
-const shafiulWeight = Number(prompt('Enter Shafiul weight:')) ;
-const shafiulHeight = Number(prompt('Enter Shafiul height:'));
-const shafiulBmi = shafiulWeight / (shafiulHeight* shafiulHeight);
-
-
-const naeemWeight = Number(prompt('Enter Naeem weight:')) ;
-const naeemHeight = Number(prompt('Enter Naeem height:'));
-const naeemBmi = naeemWeight / (naeemHeight* naeemHeight);
-
-console.log(shafiulBmi);
-console.log(naeemBmi);
-
-
-if(shafiulBmi > naeemBmi) {
-    console.log(`Shafiul's BMI is higher than Naeem's!`);
-}else{
-    console.log(`Naeem's BMI is higher than Shafiul's!`);
+    console.log('Draw!!');
 }
