@@ -278,7 +278,7 @@ if(day === 'monday'){
 
 
 // Switch case topic
-
+/*
 const day = prompt('Enter the day: ');
 
 switch(day){
@@ -309,5 +309,38 @@ switch(day){
     default:
     console.log('Invalid day.');
 
+
+}
+
+
+*/
+
+const day = prompt('Enter the day: ');
+
+if(day === 'sutarday'){
+
+    console.log('Making video tutorial.');
+
+}else if(day === 'sunday'){
+
+    console.log('Taking preparation for my online class');
+
+}else if(day ===  'monday' || day === 'twesday'){
+
+    console.log('Computer basic class.');
+    console.log('Office managemant.');
+
+}else if(day === 'wednesday'){
+
+    console.log('Reading story book.');
+
+}else if(day === 'thursday' || day === 'friday'){
+
+    console.log('Hangout with friends.');
+    console.log('Visited outside.');
+
+}else{
+
+    console.log('Invalid day.');
 
 }
