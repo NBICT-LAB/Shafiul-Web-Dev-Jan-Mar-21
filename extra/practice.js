@@ -186,21 +186,67 @@ if(password === 123){
 //     console.log(`Naeem's BMI is higher than Shafiul's!`);
 // }
 
-let dolpinfirstScore = Number(prompt('Enter first  score of dolpin'));
-let dolpinSecondScore = Number(prompt('Enter Second score of dolpin'));
-let dolpinThirdScore = Number(prompt('Enter Third  score of dolpin'));
+// let dolpinfirstScore = Number(prompt('Enter first  score of dolpin'));
+// let dolpinSecondScore = Number(prompt('Enter Second score of dolpin'));
+// let dolpinThirdScore = Number(prompt('Enter Third  score of dolpin'));
 
 
-let koalafirstScore = Number(prompt('Enter first  score of koala'));
-let koalaScoreScore = Number(prompt('Enter Second score of koala'));
-let koalaThirdScore = Number(prompt('Enter Third  score of koala'));
+// let koalafirstScore = Number(prompt('Enter first  score of koala'));
+// let koalaScoreScore = Number(prompt('Enter Second score of koala'));
+// let koalaThirdScore = Number(prompt('Enter Third  score of koala'));
 
-let avarageSoreOfdolpin = (dolpinfirstScore + dolpinSecondScore + dolpinThirdScore)/3;
-let avarageSoreOfKoala = (koalafirstScore + koalaScoreScore + koalaThirdScore)/3;
-if(avarageSoreOfdolpin > avarageSoreOfKoala){
-    console.log('Dolpin is the winer');
-}else if(avarageSoreOfKoala > avarageSoreOfDolpin){
-    console.log('Koala is the winer');
+// let avarageSoreOfdolpin = (dolpinfirstScore + dolpinSecondScore + dolpinThirdScore)/3;
+// let avarageSoreOfKoala = (koalafirstScore + koalaScoreScore + koalaThirdScore)/3;
+// if(avarageSoreOfdolpin > avarageSoreOfKoala){
+//     console.log('Dolpin is the winer');
+// }else if(avarageSoreOfKoala > avarageSoreOfDolpin){
+//     console.log('Koala is the winer');
+// }else{
+//     console.log('Draw!!');
+// }
+/*
+const day = prompt('Enter the day');
+switch(day){
+    case 'monday':
+        console.log('take preparation for online class');
+        break;
+        
+    case 'tuesday':
+        console.log('take exam preparation');
+        break;
+
+    case 'wednesday':
+    case 'thursday':
+        console.log('visited outside');
+        console.log('making video tutorial');
+        break;
+    case 'friday':
+        console.log('hangout with friends.');
+    case 'sutarday':
+    case 'sunday':
+        console.log('office management');
+        console.log('teaching management');
+        break;
+        default:
+            console.log('invalid day');
+
+} */
+
+const day = prompt('Enter the day');
+if(day=='monday'){
+    console.log('take preparation for online class');
+}else if(day== 'tuesday'){
+    console.log('take exam preparation');
+}else if(day== 'wednesday'){
+    console.log('visited outside');
+}else if(day== 'thursday'){
+    console.log('making video tutorial');
+}else if(day== 'friday'){
+    console.log('hangout with friends.');
+}else if(day== 'sutarday'){
+    console.log('office management.');
+}else if(day== 'sunday'){
+    console.log('teaching management.');
 }else{
-    console.log('Draw!!');
+    console.log('invalid day');
 }
