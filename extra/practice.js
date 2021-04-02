@@ -204,6 +204,7 @@ if(password === 123){
 // }else{
 //     console.log('Draw!!');
 // }
+
 /*
 const day = prompt('Enter the day');
 switch(day){
@@ -222,31 +223,91 @@ switch(day){
         break;
     case 'friday':
         console.log('hangout with friends.');
+        break;
     case 'sutarday':
     case 'sunday':
         console.log('office management');
         console.log('teaching management');
-        break;
+       break;
         default:
             console.log('invalid day');
 
-} */
+} 
+*/
+/*
 
 const day = prompt('Enter the day');
-if(day=='monday'){
+
+if(day === 'monday'){
     console.log('take preparation for online class');
-}else if(day== 'tuesday'){
+}else if(day === 'tuesday'){
     console.log('take exam preparation');
-}else if(day== 'wednesday'){
+}else if(day === 'wednesday' || day === 'thursday'){
     console.log('visited outside');
-}else if(day== 'thursday'){
     console.log('making video tutorial');
-}else if(day== 'friday'){
+}else if(day === 'thursday'){
+    console.log('making video tutorial');
+}else if(day === 'friday'){
     console.log('hangout with friends.');
-}else if(day== 'sutarday'){
-    console.log('office management.');
-}else if(day== 'sunday'){
-    console.log('teaching management.');
+}else if(day === 'sutarday' || day === 'sunday'){
+    console.log('office management');
+    console.log('teaching management');
 }else{
     console.log('invalid day');
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Switch case topic
+
+const day = prompt('Enter the day: ');
+
+switch(day){
+    case 'sutarday':
+    console.log('Making video tutorial.');
+    break;
+
+    case 'sunday':
+    console.log('Taking preparation for my online class');
+    break;
+
+    case 'monday':
+    case 'twesday':
+    console.log('Computer basic class.');
+    console.log('Office managemant.');
+    break;
+
+    case 'wednesday':
+    console.log('Reading story book.');
+    break;
+
+    case 'thursday':
+    case 'friday':
+    console.log('Hangout with friends.');
+    console.log('Visited outside.');
+    break;
+
+    default:
+    console.log('Invalid day.');
+
+
 }
