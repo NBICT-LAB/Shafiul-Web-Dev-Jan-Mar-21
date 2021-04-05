@@ -315,32 +315,65 @@ switch(day){
 
 */
 
-const day = prompt('Enter the day: ');
+// const day = prompt('Enter the day: ');
 
-if(day === 'sutarday'){
+// if(day === 'sutarday'){
 
-    console.log('Making video tutorial.');
+//     console.log('Making video tutorial.');
 
-}else if(day === 'sunday'){
+// }else if(day === 'sunday'){
 
-    console.log('Taking preparation for my online class');
+//     console.log('Taking preparation for my online class');
 
-}else if(day ===  'monday' || day === 'twesday'){
+// }else if(day ===  'monday' || day === 'twesday'){
 
-    console.log('Computer basic class.');
-    console.log('Office managemant.');
+//     console.log('Computer basic class.');
+//     console.log('Office managemant.');
 
-}else if(day === 'wednesday'){
+// }else if(day === 'wednesday'){
 
-    console.log('Reading story book.');
+//     console.log('Reading story book.');
 
-}else if(day === 'thursday' || day === 'friday'){
+// }else if(day === 'thursday' || day === 'friday'){
 
-    console.log('Hangout with friends.');
-    console.log('Visited outside.');
+//     console.log('Hangout with friends.');
+//     console.log('Visited outside.');
 
-}else{
+// }else{
 
-    console.log('Invalid day.');
+//     console.log('Invalid day.');
 
-}
+// }
+
+ //Ternari oparator
+
+//   const age = 15;
+
+//  age >= 18 ? console.log('i like to drink wine!') : console.log('I like to drink water!');
+
+// const drink = age >= 18 ? 'Wine': 'water';
+// console.log(drink);
+
+
+// const age = 30;
+// let drink2 = age>=18;
+
+
+// if( drink2){
+//     console.log('wine');
+// }else{
+//     console.log('water');
+// }
+
+const age = 30;
+// let drink2 ;
+
+// if(age >=18){
+//     drink2 = 'wine';
+// }else{
+//     drink2 = 'water';
+// }
+
+// console.log(drink2);
+
+console.log(` I like to drink ${age >= 18 ? 'wine': 'water'}.`)
