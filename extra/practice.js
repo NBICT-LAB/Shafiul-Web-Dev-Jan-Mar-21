@@ -365,7 +365,7 @@ switch(day){
 //     console.log('water');
 // }
 
-const age = 30;
+//const age = 30;
 // let drink2 ;
 
 // if(age >=18){
@@ -376,4 +376,24 @@ const age = 30;
 
 // console.log(drink2);
 
-console.log(` I like to drink ${age >= 18 ? 'wine': 'water'}.`)
+// const age = 30;
+// console.log(` I like to drink ${age >= 18 ? 'wine': 'water'}.`)
+
+/*
+let tip;
+let billValue= Number(prompt('Enter billValue :'));
+
+tip = billValue >=50 && billValue<=300 ? (billValue * 15)/100 : (billValue *20)/100;
+
+let totalValue = tip + billValue;
+
+
+console.log( ' The bill was  ' +  billValue  + ' The tip was ' + tip ,'and ' + 'the total value ' + totalValue  );
+
+
+*/
+const bill = Number(prompt('Enter your bill:'));
+
+const tip = bill >= 50 && bill <= 300 ? bill * (15/100 ) : bill * (20/100); 
+
+console.log(` The bill was ${bill} , the tip was ${tip} and the total value ${ bill + tip}.`);

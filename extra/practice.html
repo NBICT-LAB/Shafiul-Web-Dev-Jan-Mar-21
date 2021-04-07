@@ -3,9 +3,42 @@
 <head>
     <title>JavaScript practice</title>
     <script src="practice.js"></script>
+
+    <style>
+        #box1{
+
+            background : #9DCEFF;
+            width: 400px;
+            height: 200px;
+        }
+
+
+     </style>
+
+
+
+    <script>
+        function colorChange(element , color){
+            element = document.getElementById(element);
+           element.style.transition = "background 1s linear 0s";
+           element.style.background = color;
+
+
+
+        }
+
+
+    </script>
 </head>
 
 <body>
+
+    <button onclick = " colorChange('box1', '#F0F') "> click here to change color</button>
+    <div id="box1">
+
+        the simple texts will go here
+    </div>
+
    
 </body>
 
